@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Anika Hijab Automation Suit" parallel="false"
+	thread-count="20">
+
+	<listeners>
+		<listener class-name="com.Analyzer.Transformations"></listener>
+	</listeners>
+	<test name="Login Functionalities" thread-count="6">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Tests.LoginPageTest">
+				<methods>
+					<include name="pageTitleTest" /> 
+					<include name="loginWithValidCredentials" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+
+</suite> 
+
+

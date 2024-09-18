@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" class="navigator-link">
+              <span class="suite-name border-passed">Anika Hijab Automation Suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>Regression_Full.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Anika_Hijab_Automation_Suit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" class="hide-methods passed suite-Anika_Hijab_Automation_Suit"> (hide)</a> <!-- hide-methods passed suite-Anika_Hijab_Automation_Suit -->
+                      <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" class="show-methods passed suite-Anika_Hijab_Automation_Suit"> (show)</a> <!-- show-methods passed suite-Anika_Hijab_Automation_Suit -->
+                    </span>
+                    <div class="method-list-content passed suite-Anika_Hijab_Automation_Suit">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="aboutMenueDisplayTest">aboutMenueDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="contactMenueDisplayTest">contactMenueDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="displayedItemTest">displayedItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="firstPageValidationTest">firstPageValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="headerManueListTest">headerManueListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="homeManueDisplayTest">homeManueDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="productsMenueDisplayTest">productsMenueDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="scarfManuDisplayTest">scarfManuDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="scarfPinManuDisplayTest">scarfPinManuDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="secondPageValidationTest">secondPageValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="selectByCategoryTest">selectByCategoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="showingProductsCount">showingProductsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="underCapManuDisplayTest">underCapManuDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Anika_Hijab_Automation_Suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Anika_Hijab_Automation_Suit" class="panel Anika_Hijab_Automation_Suit">
+          <div class="suite-Anika_Hijab_Automation_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Tests.AllProductsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayedItemTest">
+                  </a> <!-- displayedItemTest -->
+                  <span class="method-name">displayedItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstPageValidationTest">
+                  </a> <!-- firstPageValidationTest -->
+                  <span class="method-name">firstPageValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageTitleTest">
+                  </a> <!-- pageTitleTest -->
+                  <span class="method-name">pageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondPageValidationTest">
+                  </a> <!-- secondPageValidationTest -->
+                  <span class="method-name">secondPageValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectByCategoryTest">
+                  </a> <!-- selectByCategoryTest -->
+                  <span class="method-name">selectByCategoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showingProductsCount">
+                  </a> <!-- showingProductsCount -->
+                  <span class="method-name">showingProductsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Anika_Hijab_Automation_Suit-class-passed -->
+          <div class="suite-Anika_Hijab_Automation_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutMenueDisplayTest">
+                  </a> <!-- aboutMenueDisplayTest -->
+                  <span class="method-name">aboutMenueDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactMenueDisplayTest">
+                  </a> <!-- contactMenueDisplayTest -->
+                  <span class="method-name">contactMenueDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headerManueListTest">
+                  </a> <!-- headerManueListTest -->
+                  <span class="method-name">headerManueListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeManueDisplayTest">
+                  </a> <!-- homeManueDisplayTest -->
+                  <span class="method-name">homeManueDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageTitleTest">
+                  </a> <!-- pageTitleTest -->
+                  <span class="method-name">pageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productsMenueDisplayTest">
+                  </a> <!-- productsMenueDisplayTest -->
+                  <span class="method-name">productsMenueDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scarfManuDisplayTest">
+                  </a> <!-- scarfManuDisplayTest -->
+                  <span class="method-name">scarfManuDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scarfPinManuDisplayTest">
+                  </a> <!-- scarfPinManuDisplayTest -->
+                  <span class="method-name">scarfPinManuDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="underCapManuDisplayTest">
+                  </a> <!-- underCapManuDisplayTest -->
+                  <span class="method-name">underCapManuDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Anika_Hijab_Automation_Suit-class-passed -->
+        </div> <!-- panel Anika_Hijab_Automation_Suit -->
+        <div panel-name="test-xml-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/Regression_Full.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;20&quot; name=&quot;Anika Hijab Automation Suit&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.Analyzer.Transformations&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;Home Page Functions&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Tests.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;pageTitleTest&quot;/&gt;
+          &lt;include name=&quot;headerManueListTest&quot;/&gt;
+          &lt;include name=&quot;homeManueDisplayTest&quot;/&gt;
+          &lt;include name=&quot;productsMenueDisplayTest&quot;/&gt;
+          &lt;include name=&quot;scarfManuDisplayTest&quot;/&gt;
+          &lt;include name=&quot;underCapManuDisplayTest&quot;/&gt;
+          &lt;include name=&quot;scarfPinManuDisplayTest&quot;/&gt;
+          &lt;include name=&quot;aboutMenueDisplayTest&quot;/&gt;
+          &lt;include name=&quot;contactMenueDisplayTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Tests.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Page Functions --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Products Page&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Tests.AllProductsPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;pageTitleTest&quot;/&gt;
+          &lt;include name=&quot;selectByCategoryTest&quot;/&gt;
+          &lt;include name=&quot;showingProductsCount&quot;/&gt;
+          &lt;include name=&quot;displayedItemTest&quot;/&gt;
+          &lt;include name=&quot;firstPageValidationTest&quot;/&gt;
+          &lt;include name=&quot;secondPageValidationTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Tests.AllProductsPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Products Page --&gt;
+&lt;/suite&gt; &lt;!-- Anika Hijab Automation Suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Anika Hijab Automation Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home Page Functions (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Products Page (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Anika Hijab Automation Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Home Page Headers Functions</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">aboutMenueDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contactMenueDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homeManueDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">productsMenueDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">scarfManuDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">scarfPinManuDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">underCapManuDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Integration Testing</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayedItemTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstPageValidationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">secondPageValidationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectByCategoryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">showingProductsCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">headerManueListTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Testing</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Anika Hijab Automation Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Anika_Hijab_Automation_Suit');
+function tableData_Anika_Hijab_Automation_Suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'headerManueListTest')
+data.setCell(0, 2, 'com.Tests.HomePageTest')
+data.setCell(0, 3, 1732);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectByCategoryTest')
+data.setCell(1, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(1, 3, 653);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'secondPageValidationTest')
+data.setCell(2, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(2, 3, 539);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'contactMenueDisplayTest')
+data.setCell(3, 2, 'com.Tests.HomePageTest')
+data.setCell(3, 3, 406);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'firstPageValidationTest')
+data.setCell(4, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(4, 3, 366);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'showingProductsCount')
+data.setCell(5, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(5, 3, 288);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'underCapManuDisplayTest')
+data.setCell(6, 2, 'com.Tests.HomePageTest')
+data.setCell(6, 3, 281);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'homeManueDisplayTest')
+data.setCell(7, 2, 'com.Tests.HomePageTest')
+data.setCell(7, 3, 275);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'scarfPinManuDisplayTest')
+data.setCell(8, 2, 'com.Tests.HomePageTest')
+data.setCell(8, 3, 240);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'productsMenueDisplayTest')
+data.setCell(9, 2, 'com.Tests.HomePageTest')
+data.setCell(9, 3, 240);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'aboutMenueDisplayTest')
+data.setCell(10, 2, 'com.Tests.HomePageTest')
+data.setCell(10, 3, 199);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'scarfManuDisplayTest')
+data.setCell(11, 2, 'com.Tests.HomePageTest')
+data.setCell(11, 3, 191);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'pageTitleTest')
+data.setCell(12, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(12, 3, 179);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'displayedItemTest')
+data.setCell(13, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(13, 3, 159);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'pageTitleTest')
+data.setCell(14, 2, 'com.Tests.HomePageTest')
+data.setCell(14, 3, 74);
+window.suiteTableData['Anika_Hijab_Automation_Suit']= { tableData: data, tableDiv: 'times-div-Anika_Hijab_Automation_Suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Anika_Hijab_Automation_Suit">
+              </div> <!-- times-div-Anika_Hijab_Automation_Suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Anika Hijab Automation Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">accountListTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Anika_Hijab_Automation_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pageTitleTest</span>
+                <span class="method-start">4099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">4365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">headerManueListTest</span>
+                <span class="method-start">8181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">10066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homeManueDisplayTest</span>
+                <span class="method-start">14711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">15109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productsMenueDisplayTest</span>
+                <span class="method-start">18516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">18907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scarfManuDisplayTest</span>
+                <span class="method-start">22280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">22664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">underCapManuDisplayTest</span>
+                <span class="method-start">25978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">26375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scarfPinManuDisplayTest</span>
+                <span class="method-start">29698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29940 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">30093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aboutMenueDisplayTest</span>
+                <span class="method-start">33715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">34025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactMenueDisplayTest</span>
+                <span class="method-start">37289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37697 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Tests.AllProductsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">37836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pageTitleTest</span>
+                <span class="method-start">41931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">42227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectByCategoryTest</span>
+                <span class="method-start">46231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">47024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">showingProductsCount</span>
+                <span class="method-start">50665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">51111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">displayedItemTest</span>
+                <span class="method-start">54917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">55259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstPageValidationTest</span>
+                <span class="method-start">58868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">59375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">secondPageValidationTest</span>
+                <span class="method-start">63063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63603 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

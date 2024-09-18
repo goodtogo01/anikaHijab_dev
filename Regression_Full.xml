@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Anika Hijab Automation Suit" parallel="false"
+	thread-count="20">
+
+	<listeners>
+		<listener class-name="com.Analyzer.Transformations"></listener>
+	</listeners>
+
+
+	<test name="Home Page Functions" thread-count="10">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Tests.HomePageTest">
+				<methods>
+					<include name="pageTitleTest" />
+					<include name="headerManueListTest" />
+					<include name="homeManueDisplayTest" />
+					<include name="productsMenueDisplayTest" />
+					<include name="scarfManuDisplayTest" />
+					<include name="underCapManuDisplayTest" />
+					<include name="scarfPinManuDisplayTest" />
+					<include name="aboutMenueDisplayTest" />
+					<include name="contactMenueDisplayTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Products Page" thread-count="5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Tests.AllProductsPageTest">
+				<methods>
+					<include name="pageTitleTest" />
+					<include name="selectByCategoryTest" />
+					<include name="showingProductsCount" />
+					<include name="displayedItemTest" />
+					<include name="firstPageValidationTest" />
+					<include name="secondPageValidationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> 
+
+

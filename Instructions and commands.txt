@@ -1,0 +1,5 @@
+Necessary Commands for EveryThings:
+
+## Maven:
+	1. Update All dependencies
+		 --mvn versions:display-dependency-updates

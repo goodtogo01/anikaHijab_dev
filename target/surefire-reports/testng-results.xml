@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="16" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T15:34:55 EDT" name="Anika Hijab Automation Suit" finished-at="2024-09-10T15:35:59 EDT" duration-ms="63767">
+    <groups>
+      <group name="Smoke Testing">
+        <method signature="AllProductsPageTest.pageTitleTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="pageTitleTest" class="com.Tests.AllProductsPageTest"/>
+      </group> <!-- Smoke Testing -->
+      <group name="Smoke Test">
+        <method signature="HomePageTest.headerManueListTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="headerManueListTest" class="com.Tests.HomePageTest"/>
+      </group> <!-- Smoke Test -->
+      <group name="Integration Testing">
+        <method signature="AllProductsPageTest.displayedItemTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="displayedItemTest" class="com.Tests.AllProductsPageTest"/>
+        <method signature="AllProductsPageTest.firstPageValidationTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="firstPageValidationTest" class="com.Tests.AllProductsPageTest"/>
+        <method signature="AllProductsPageTest.secondPageValidationTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="secondPageValidationTest" class="com.Tests.AllProductsPageTest"/>
+        <method signature="AllProductsPageTest.selectByCategoryTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="selectByCategoryTest" class="com.Tests.AllProductsPageTest"/>
+        <method signature="AllProductsPageTest.showingProductsCount()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" name="showingProductsCount" class="com.Tests.AllProductsPageTest"/>
+      </group> <!-- Integration Testing -->
+      <group name="Home Page Headers Functions">
+        <method signature="HomePageTest.aboutMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="aboutMenueDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.contactMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="contactMenueDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.homeManueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="homeManueDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.pageTitleTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="pageTitleTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.productsMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="productsMenueDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.scarfManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="scarfManuDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.scarfPinManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="scarfPinManuDisplayTest" class="com.Tests.HomePageTest"/>
+        <method signature="HomePageTest.underCapManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" name="underCapManuDisplayTest" class="com.Tests.HomePageTest"/>
+      </group> <!-- Home Page Headers Functions -->
+    </groups>
+    <test started-at="2024-09-10T15:34:55 EDT" name="Home Page Functions" finished-at="2024-09-10T15:35:33 EDT" duration-ms="37830">
+      <class name="com.Tests.HomePageTest">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:34:55 EDT" name="tearUp" finished-at="2024-09-10T15:34:59 EDT" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="pageTitleTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:34:59 EDT" name="pageTitleTest" finished-at="2024-09-10T15:34:59 EDT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:00 EDT" name="tearDown" finished-at="2024-09-10T15:35:00 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:00 EDT" name="tearUp" finished-at="2024-09-10T15:35:03 EDT" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="headerManueListTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:03 EDT" name="headerManueListTest" finished-at="2024-09-10T15:35:05 EDT" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerManueListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:05 EDT" name="tearDown" finished-at="2024-09-10T15:35:05 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:05 EDT" name="tearUp" finished-at="2024-09-10T15:35:10 EDT" duration-ms="4643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="homeManueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:10 EDT" name="homeManueDisplayTest" finished-at="2024-09-10T15:35:10 EDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeManueDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:10 EDT" name="tearDown" finished-at="2024-09-10T15:35:10 EDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:10 EDT" name="tearUp" finished-at="2024-09-10T15:35:14 EDT" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="productsMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:14 EDT" name="productsMenueDisplayTest" finished-at="2024-09-10T15:35:14 EDT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsMenueDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:14 EDT" name="tearDown" finished-at="2024-09-10T15:35:14 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:14 EDT" name="tearUp" finished-at="2024-09-10T15:35:18 EDT" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="scarfManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:18 EDT" name="scarfManuDisplayTest" finished-at="2024-09-10T15:35:18 EDT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scarfManuDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:18 EDT" name="tearDown" finished-at="2024-09-10T15:35:18 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:18 EDT" name="tearUp" finished-at="2024-09-10T15:35:21 EDT" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="underCapManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:21 EDT" name="underCapManuDisplayTest" finished-at="2024-09-10T15:35:22 EDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- underCapManuDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:22 EDT" name="tearDown" finished-at="2024-09-10T15:35:22 EDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:22 EDT" name="tearUp" finished-at="2024-09-10T15:35:25 EDT" duration-ms="3321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="scarfPinManuDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:25 EDT" name="scarfPinManuDisplayTest" finished-at="2024-09-10T15:35:25 EDT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scarfPinManuDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:25 EDT" name="tearDown" finished-at="2024-09-10T15:35:25 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:25 EDT" name="tearUp" finished-at="2024-09-10T15:35:29 EDT" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="aboutMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:29 EDT" name="aboutMenueDisplayTest" finished-at="2024-09-10T15:35:29 EDT" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutMenueDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:29 EDT" name="tearDown" finished-at="2024-09-10T15:35:29 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:29 EDT" name="tearUp" finished-at="2024-09-10T15:35:33 EDT" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="contactMenueDisplayTest()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:33 EDT" name="contactMenueDisplayTest" finished-at="2024-09-10T15:35:33 EDT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactMenueDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomePageTest@618425b5]" started-at="2024-09-10T15:35:33 EDT" name="tearDown" finished-at="2024-09-10T15:35:33 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.HomePageTest -->
+    </test> <!-- Home Page Functions -->
+    <test started-at="2024-09-10T15:35:33 EDT" name="Products Page" finished-at="2024-09-10T15:35:59 EDT" duration-ms="25910">
+      <class name="com.Tests.AllProductsPageTest">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:33 EDT" name="tearUp" finished-at="2024-09-10T15:35:37 EDT" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="pageTitleTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:37 EDT" name="pageTitleTest" finished-at="2024-09-10T15:35:37 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:37 EDT" name="tearDown" finished-at="2024-09-10T15:35:38 EDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:38 EDT" name="tearUp" finished-at="2024-09-10T15:35:42 EDT" duration-ms="4003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="selectByCategoryTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:42 EDT" name="selectByCategoryTest" finished-at="2024-09-10T15:35:42 EDT" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectByCategoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:42 EDT" name="tearDown" finished-at="2024-09-10T15:35:42 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:42 EDT" name="tearUp" finished-at="2024-09-10T15:35:46 EDT" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="showingProductsCount()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:46 EDT" name="showingProductsCount" finished-at="2024-09-10T15:35:46 EDT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showingProductsCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:46 EDT" name="tearDown" finished-at="2024-09-10T15:35:46 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:46 EDT" name="tearUp" finished-at="2024-09-10T15:35:50 EDT" duration-ms="3803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="displayedItemTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:50 EDT" name="displayedItemTest" finished-at="2024-09-10T15:35:50 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayedItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:50 EDT" name="tearDown" finished-at="2024-09-10T15:35:51 EDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:51 EDT" name="tearUp" finished-at="2024-09-10T15:35:54 EDT" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="firstPageValidationTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:54 EDT" name="firstPageValidationTest" finished-at="2024-09-10T15:35:55 EDT" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:55 EDT" name="tearDown" finished-at="2024-09-10T15:35:55 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:55 EDT" name="tearUp" finished-at="2024-09-10T15:35:58 EDT" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="secondPageValidationTest()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:58 EDT" name="secondPageValidationTest" finished-at="2024-09-10T15:35:59 EDT" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondPageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.AllProductsPageTest@242b836]" started-at="2024-09-10T15:35:59 EDT" name="tearDown" finished-at="2024-09-10T15:35:59 EDT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.AllProductsPageTest -->
+    </test> <!-- Products Page -->
+  </suite> <!-- Anika Hijab Automation Suit -->
+</testng-results>
