@@ -16,6 +16,7 @@ public class AllProductsPageTest extends Helper {
 
 	@BeforeMethod
 	public void tearUp() {
+		
 		initializations();
 		allProductsPage = new AllProductsPage();
 		allProductsPage.navigateToAllProducts();
@@ -73,7 +74,7 @@ public class AllProductsPageTest extends Helper {
 	}
 
 	@Test(groups = "Integration Testing")
-	public static void secondPageValidationTest() throws IOException {
+	public static void secondPageValidationTest() throws IOException, InterruptedException {
 		/*
 		 => Validation 1: Total items (as of now) are 14, 
 			-- First page will contained 9 items

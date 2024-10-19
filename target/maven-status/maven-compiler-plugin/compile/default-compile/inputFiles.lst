@@ -1,7 +1,10 @@
+/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Utilities/CaptureRequests.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Base/Helper.java
+/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/ExtentReporter/ExtentReporterNG.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Utilities/TestUtils.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Pages/Hompage.java
+/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Pages/LoginPage.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Pages/AllProductsPage.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Analyzer/ReTryAnalyzer.java
 /Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Analyzer/Transformations.java
-/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Utilities/TestAllureRiportListener.java
+/Users/khosruzzaman/Current_Works/AnikaHizamAutomationSuit/src/main/java/com/Pages/ScarfPage.java

@@ -85,8 +85,11 @@ public class TestUtils extends Helper{
 		// wait = new WebDriverWait(driver, IMPLICITLY_WAIT_TIME);
 		WebElement element = (WebElement) wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(locator)));
 	}
-	public static void implicitelyWaitTime() {
+	public static void implicitelyWaitTime() throws InterruptedException {
+		// selenium 4
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+ 
+	 
 	}
 //	public static void implicitelyWaitTimeForAlert() {
 //		wait=new WebDriverWait(driver, 30);

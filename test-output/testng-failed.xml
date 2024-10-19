@@ -3,14 +3,15 @@
 <suite thread-count="20" name="Failed suite [Anika Hijab Automation Suit]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.Analyzer.Transformations"/>
+    <listener class-name="com.ExtentReporter.ExtentReporterNG"/>
   </listeners>
   <test thread-count="20" name="Login Functionalities(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.Tests.LoginPageTest">
         <methods>
-          <include name="loginWithValidCredentials"/>
           <include name="tearUp"/>
+          <include name="pageTitleTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Tests.LoginPageTest -->

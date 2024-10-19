@@ -55,12 +55,12 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Anika_Hijab_Automation_Suit" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Anika_Hijab_Automation_Suit" class="navigator-link ">
-                    <span>4 groups</span>
+                    <span>6 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">17 methods,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,12 +133,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.LoginPageTest" class="method navigator-link" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.HomePageTest" class="method navigator-link" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.AllProductsPageTest" class="method navigator-link" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Anika_Hijab_Automation_Suit" title="com.Tests.LoginPageTest" class="method navigator-link" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -241,6 +251,28 @@
           <div class="suite-Anika_Hijab_Automation_Suit-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.Tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageTitleTest">
+                  </a> <!-- pageTitleTest -->
+                  <span class="method-name">pageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Anika_Hijab_Automation_Suit-class-passed -->
+          <div class="suite-Anika_Hijab_Automation_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.Tests.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -321,8 +353,9 @@
 &lt;suite thread-count=&quot;20&quot; name=&quot;Anika Hijab Automation Suit&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.Analyzer.Transformations&quot;/&gt;
+    &lt;listener class-name=&quot;com.ExtentReporter.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;10&quot; name=&quot;Home Page Functions&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;Home Page Functionalities&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.Tests.HomePageTest&quot;&gt;
@@ -339,8 +372,8 @@
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.Tests.HomePageTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Home Page Functions --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Products Page&quot; verbose=&quot;0&quot;&gt;
+  &lt;/test&gt; &lt;!-- Home Page Functionalities --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Products Page Functionalities&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.Tests.AllProductsPageTest&quot;&gt;
@@ -354,7 +387,18 @@
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.Tests.AllProductsPageTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Products Page --&gt;
+  &lt;/test&gt; &lt;!-- Products Page Functionalities --&gt;
+  &lt;test thread-count=&quot;6&quot; name=&quot;Login Functionalities&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Tests.LoginPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;pageTitleTest&quot;/&gt;
+          &lt;include name=&quot;loginWithValidCredentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Tests.LoginPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Functionalities --&gt;
 &lt;/suite&gt; &lt;!-- Anika Hijab Automation Suit --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -366,10 +410,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Home Page Functions (1 class)</span>
+                <span class="test-name">Home Page Functionalities (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Products Page (1 class)</span>
+                <span class="test-name">Products Page Functionalities (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Functionalities (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -440,6 +487,22 @@
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Smoke Test</span>
               <br/>
               <div class="method-in-group">
@@ -471,72 +534,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'headerManueListTest')
-data.setCell(0, 2, 'com.Tests.HomePageTest')
-data.setCell(0, 3, 1732);
+data.setCell(0, 1, 'loginWithValidCredentials')
+data.setCell(0, 2, 'com.Tests.LoginPageTest')
+data.setCell(0, 3, 4239);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectByCategoryTest')
-data.setCell(1, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(1, 3, 653);
+data.setCell(1, 1, 'headerManueListTest')
+data.setCell(1, 2, 'com.Tests.HomePageTest')
+data.setCell(1, 3, 622);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'secondPageValidationTest')
+data.setCell(2, 1, 'selectByCategoryTest')
 data.setCell(2, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(2, 3, 539);
+data.setCell(2, 3, 490);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'contactMenueDisplayTest')
-data.setCell(3, 2, 'com.Tests.HomePageTest')
-data.setCell(3, 3, 406);
+data.setCell(3, 1, 'secondPageValidationTest')
+data.setCell(3, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(3, 3, 306);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'firstPageValidationTest')
 data.setCell(4, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(4, 3, 366);
+data.setCell(4, 3, 238);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'showingProductsCount')
-data.setCell(5, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(5, 3, 288);
+data.setCell(5, 1, 'productsMenueDisplayTest')
+data.setCell(5, 2, 'com.Tests.HomePageTest')
+data.setCell(5, 3, 119);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'underCapManuDisplayTest')
+data.setCell(6, 1, 'contactMenueDisplayTest')
 data.setCell(6, 2, 'com.Tests.HomePageTest')
-data.setCell(6, 3, 281);
+data.setCell(6, 3, 86);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'homeManueDisplayTest')
+data.setCell(7, 1, 'aboutMenueDisplayTest')
 data.setCell(7, 2, 'com.Tests.HomePageTest')
-data.setCell(7, 3, 275);
+data.setCell(7, 3, 84);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'scarfPinManuDisplayTest')
 data.setCell(8, 2, 'com.Tests.HomePageTest')
-data.setCell(8, 3, 240);
+data.setCell(8, 3, 77);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'productsMenueDisplayTest')
+data.setCell(9, 1, 'underCapManuDisplayTest')
 data.setCell(9, 2, 'com.Tests.HomePageTest')
-data.setCell(9, 3, 240);
+data.setCell(9, 3, 73);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'aboutMenueDisplayTest')
+data.setCell(10, 1, 'scarfManuDisplayTest')
 data.setCell(10, 2, 'com.Tests.HomePageTest')
-data.setCell(10, 3, 199);
+data.setCell(10, 3, 65);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'scarfManuDisplayTest')
+data.setCell(11, 1, 'homeManueDisplayTest')
 data.setCell(11, 2, 'com.Tests.HomePageTest')
-data.setCell(11, 3, 191);
+data.setCell(11, 3, 58);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'pageTitleTest')
-data.setCell(12, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(12, 3, 179);
+data.setCell(12, 2, 'com.Tests.HomePageTest')
+data.setCell(12, 3, 24);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'displayedItemTest')
+data.setCell(13, 1, 'showingProductsCount')
 data.setCell(13, 2, 'com.Tests.AllProductsPageTest')
-data.setCell(13, 3, 159);
+data.setCell(13, 3, 19);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'pageTitleTest')
-data.setCell(14, 2, 'com.Tests.HomePageTest')
-data.setCell(14, 3, 74);
+data.setCell(14, 1, 'displayedItemTest')
+data.setCell(14, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(14, 3, 5);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'pageTitleTest')
+data.setCell(15, 2, 'com.Tests.LoginPageTest')
+data.setCell(15, 3, 5);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'pageTitleTest')
+data.setCell(16, 2, 'com.Tests.AllProductsPageTest')
+data.setCell(16, 3, 3);
 window.suiteTableData['Anika_Hijab_Automation_Suit']= { tableData: data, tableDiv: 'times-div-Anika_Hijab_Automation_Suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Anika_Hijab_Automation_Suit">
               </div> <!-- times-div-Anika_Hijab_Automation_Suit -->
             </div> <!-- times-div -->
@@ -576,182 +647,209 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pageTitleTest</span>
-                <span class="method-start">4099 ms</span>
+                <span class="method-start">6053 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4203 ms</span>
+                <span class="method-start">6088 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">4365 ms</span>
+                <span class="method-start">6778 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">headerManueListTest</span>
-                <span class="method-start">8181 ms</span>
+                <span class="method-start">11276 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9916 ms</span>
+                <span class="method-start">11899 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">10066 ms</span>
+                <span class="method-start">12540 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homeManueDisplayTest</span>
-                <span class="method-start">14711 ms</span>
+                <span class="method-start">17509 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14988 ms</span>
+                <span class="method-start">17568 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">15109 ms</span>
+                <span class="method-start">18209 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productsMenueDisplayTest</span>
-                <span class="method-start">18516 ms</span>
+                <span class="method-start">23007 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18759 ms</span>
+                <span class="method-start">23128 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">18907 ms</span>
+                <span class="method-start">24199 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scarfManuDisplayTest</span>
-                <span class="method-start">22280 ms</span>
+                <span class="method-start">28934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22473 ms</span>
+                <span class="method-start">29001 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">22664 ms</span>
+                <span class="method-start">29627 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">underCapManuDisplayTest</span>
-                <span class="method-start">25978 ms</span>
+                <span class="method-start">34291 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26261 ms</span>
+                <span class="method-start">34366 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">26375 ms</span>
+                <span class="method-start">35046 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scarfPinManuDisplayTest</span>
-                <span class="method-start">29698 ms</span>
+                <span class="method-start">39643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29940 ms</span>
+                <span class="method-start">39721 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">30093 ms</span>
+                <span class="method-start">40382 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">aboutMenueDisplayTest</span>
-                <span class="method-start">33715 ms</span>
+                <span class="method-start">45056 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33916 ms</span>
+                <span class="method-start">45141 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">34025 ms</span>
+                <span class="method-start">45821 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">contactMenueDisplayTest</span>
-                <span class="method-start">37289 ms</span>
+                <span class="method-start">50551 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37697 ms</span>
+                <span class="method-start">50639 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Tests.AllProductsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">37836 ms</span>
+                <span class="method-start">51320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pageTitleTest</span>
-                <span class="method-start">41931 ms</span>
+                <span class="method-start">56290 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42112 ms</span>
+                <span class="method-start">56294 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">42227 ms</span>
+                <span class="method-start">56975 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectByCategoryTest</span>
-                <span class="method-start">46231 ms</span>
+                <span class="method-start">62031 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46886 ms</span>
+                <span class="method-start">62522 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">47024 ms</span>
+                <span class="method-start">63229 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">showingProductsCount</span>
-                <span class="method-start">50665 ms</span>
+                <span class="method-start">69389 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50955 ms</span>
+                <span class="method-start">69409 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">51111 ms</span>
+                <span class="method-start">70088 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">displayedItemTest</span>
-                <span class="method-start">54917 ms</span>
+                <span class="method-start">75035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">55082 ms</span>
+                <span class="method-start">75041 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">55259 ms</span>
+                <span class="method-start">75722 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">firstPageValidationTest</span>
-                <span class="method-start">58868 ms</span>
+                <span class="method-start">80828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59236 ms</span>
+                <span class="method-start">81067 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">59375 ms</span>
+                <span class="method-start">81790 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">secondPageValidationTest</span>
-                <span class="method-start">63063 ms</span>
+                <span class="method-start">87239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63603 ms</span>
+                <span class="method-start">87546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">88235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pageTitleTest</span>
+                <span class="method-start">94122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">94824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">100479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104718 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

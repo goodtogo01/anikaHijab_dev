@@ -23,6 +23,7 @@ public class LoginPageTest extends Helper{
 	@Test(priority = 0, groups = "Sanity Test")
 	public void pageTitleTest() {
 	loginPage.validatePageTitle(prop.getProperty("accountPage"));
+	System.out.println("Validate Page title successfully");
 		
 	}
 	@Test(priority = 1, groups = "Regression Test")

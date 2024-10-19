@@ -4,11 +4,12 @@
 	thread-count="20">
 
 	<listeners>
-		<listener class-name="com.Analyzer.Transformations"></listener>
+		<listener class-name="com.Analyzer.Transformations"/>
+		<listener class-name="com.ExtentReporter.ExtentReporterNG" />
 	</listeners>
 
 
-	<test name="Home Page Functions" thread-count="10">
+	<test name="Home Page Functionalities" thread-count="10">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.Tests.HomePageTest">
@@ -28,7 +29,7 @@
 	</test>
 
 
-	<test name="Products Page" thread-count="5">
+	<test name="Products Page Functionalities" thread-count="5">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.Tests.AllProductsPageTest">
@@ -42,6 +43,18 @@
 				</methods>
 			</class>
 		</classes>
+	</test>
+<test name="Login Functionalities" thread-count="6">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Tests.LoginPageTest">
+				<methods>
+					<include name="pageTitleTest" /> 
+					<include name="loginWithValidCredentials" />
+				</methods>
+			</class>
+		</classes>
+
 	</test>
 
 

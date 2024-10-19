@@ -2,42 +2,24 @@ package com.Base;
 
 import java.io.FileInputStream;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument.Config;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.safari.SafariOptions;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
-import com.Utilities.CaptureRequests;
-import com.Utilities.TestUtils;
-
-import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Helper {
 	// Set Properties
 	public static Properties prop;
-	public String projectPath = System.getProperty("user.dir");
-	public static Logger log = LogManager.getLogger();
-	CaptureRequests cr = new CaptureRequests();
+	public static String projectPath = System.getProperty("user.dir");
+	public static Logger log = LogManager.getLogger(); 
+ 	public static WebDriver driver;
 
-	// set Drivers
-	public static WebDriver driver;
+    
 
 	public Helper() {
 		try {
@@ -50,7 +32,7 @@ public class Helper {
 	}
 
 	public WebDriver initializations() {
-		log.info("Initialization has started");
+
 		String browserName = prop.getProperty("browser");
 		try {
 			if (browserName.equalsIgnoreCase("chrome")) {
@@ -67,9 +49,10 @@ public class Helper {
 		}
 
 		// driver.manage().deleteAllCookies();
-		driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
+		
 		//cr.captureHttpRequests(driver, browserName);
-		// driver.get("https://anikahijab.com/");
+		driver.get("https://anikahijab.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.navigate().refresh();
@@ -82,4 +65,5 @@ public class Helper {
 		// Get driver from ThreadLocalMap
 		return driver;
 	}
+
 }

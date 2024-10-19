@@ -102,7 +102,7 @@ public class AllProductsPage extends Helper {
 		showingNumberOfProducts(text);
 		
 	}
-	public static void secondPageValidation(int item, String text) throws IOException {
+	public static void secondPageValidation(int item, String text) throws IOException, InterruptedException {
 		nextPage.click();
 		diplayedItems(item);
 		TestUtils.implicitelyWaitTime();

@@ -7,8 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mavencompilersource>20.0</mavencompilersource>
-		<mavencompilertarget>20.0</mavencompilertarget>
+		<mavencompilersource>17</mavencompilersource>
+		<mavencompilertarget>17</mavencompilertarget>
 
 		<testngVersion>7.7.1</testngVersion>
 		<mavenPluginVersion>3.8.1</mavenPluginVersion>
@@ -23,9 +23,33 @@
 		<ooxmlSchemasVersion>1.4</ooxmlSchemasVersion>
 		<commonsIoVersion>2.8.0</commonsIoVersion>
 		<wdManagerVerion>5.8.0</wdManagerVerion>
+		<extentAdapter>1.2.1</extentAdapter>
+		<extents>5.1.1</extents>
+		<releventCodes>2.41.2</releventCodes>
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${releventCodes}</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports-testng-adapter</artifactId>
+			<version>${extentAdapter}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extents}</version>
+		</dependency>
+
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
@@ -109,7 +133,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				 <version>${mavenPluginVersion}</version>
+				<version>${mavenPluginVersion}</version>
 				<configuration>
 					<source>${mavencompilersource}</source>
 					<target>${mavencompilertarget}</target>
