@@ -1,1 +1,0 @@
-{"uuid":"87c65132-ced1-4eba-968f-1f45f50b0676","name":"com.Tests.HomePageTest.tearUp","children":["56f83f0e-45ba-4d5c-968a-f72eabaf3a37"],"description":"","befores":[{"name":"tearUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1726711793681,"stop":1726711797094}],"afters":[],"start":1726711793681,"stop":1726711797094}
