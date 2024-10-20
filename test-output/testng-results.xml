@@ -2,23 +2,23 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-19T11:55:29 EDT" name="Default suite" finished-at="2024-10-19T11:55:37 EDT" duration-ms="7498">
+  <suite started-at="2024-10-20T15:44:49 EDT" name="Default suite" finished-at="2024-10-20T15:44:59 EDT" duration-ms="9435">
     <groups>
       <group name="Sanity Test">
         <method signature="LoginPageTest.pageTitleTest()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" name="pageTitleTest" class="com.Tests.LoginPageTest"/>
       </group> <!-- Sanity Test -->
     </groups>
-    <test started-at="2024-10-19T11:55:29 EDT" name="Default test" finished-at="2024-10-19T11:55:37 EDT" duration-ms="7498">
+    <test started-at="2024-10-20T15:44:49 EDT" name="Default test" finished-at="2024-10-20T15:44:59 EDT" duration-ms="9435">
       <class name="com.Tests.LoginPageTest">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-19T11:55:29 EDT" name="tearUp" finished-at="2024-10-19T11:55:36 EDT" duration-ms="6710" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-20T15:44:49 EDT" name="tearUp" finished-at="2024-10-20T15:44:59 EDT" duration-ms="9191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method signature="pageTitleTest()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-19T11:55:36 EDT" name="pageTitleTest" finished-at="2024-10-19T11:55:36 EDT" duration-ms="26" status="PASS">
+        <test-method signature="pageTitleTest()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-20T15:44:59 EDT" name="pageTitleTest" finished-at="2024-10-20T15:44:59 EDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-19T11:55:36 EDT" name="tearDown" finished-at="2024-10-19T11:55:37 EDT" duration-ms="685" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.LoginPageTest@3a7b503d]" started-at="2024-10-20T15:44:59 EDT" name="tearDown" finished-at="2024-10-20T15:44:59 EDT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

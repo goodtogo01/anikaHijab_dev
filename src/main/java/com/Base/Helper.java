@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 import org.apache.logging.log4j.LogManager;
@@ -37,6 +38,7 @@ public class Helper {
 		try {
 			if (browserName.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
+				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 			} else if (browserName.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver");
